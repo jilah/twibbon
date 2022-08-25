@@ -10,6 +10,7 @@ const externalHTML = `
 <p>Pastikan gambar yang di upload memiliki ukuran.</p>
 <label for="photo">Upload Photo:</label><br>
 <input class="lt-shadow" id="fileInput" type="file" />
+<p>Donasi; <a href="https://saweria.co/bungferry">Saling berbagi itu indah, berapa rupiah pun yang penting ikhlas.</a></p>
 <button type="button" class="lt-button" id="dpwload" onclick="drawImage()">Preview</button> 
 <button type="button" class="lt-del" id="open-modal">Info</button> 
 </div>
@@ -53,6 +54,7 @@ Online: <code id="count">0</code>
 <img id="twibbon" src="img/twibbon.png" style="display: none"/>
 <canvas id="bungferry" style="width: 300px; height: 300px; display: none"></canvas>
 </p>
+<p>Donasi; <a href="https://saweria.co/bungferry">Saling berbagi itu indah, berapa rupiah pun yang penting ikhlas.</a></p>
 <p>
 <a class="lt-button" href="#" id="dpwload2" download="TWIBBON.PAGES.DEV.png" style="display: none">Download</a>
 <button type="button" class="lt-del" id="cancel" onclick="location.reload()">Hapus</button> 
